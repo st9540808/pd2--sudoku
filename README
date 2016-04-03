@@ -17,7 +17,7 @@ Ex:
 7 9 0 0 2 0 1 0 0
 1 0 0 7 6 0 0 5 4
 
-out put format :
+output format :
 an "answer type" followed by a solution(if unique)
 
 "0" represents no solution
