@@ -1,0 +1,42 @@
+This a sudoku solver using backtracking algorithm with some constraint propagated optimization
+
+how to import a question :
+using a existed file with redirection
+Ex: ./solve < question
+
+question format :
+0 represents a undetermined answer, every number is seperated with a whitespace
+Ex:
+2 0 0 8 5 9 0 0 6 
+0 0 6 3 4 1 0 2 0 
+0 0 9 6 7 2 5 4 0
+8 5 2 0 0 4 0 1 7
+0 0 0 2 8 0 4 3 5
+0 0 3 0 1 0 0 9 0
+0 3 0 0 9 0 0 0 2
+7 9 0 0 2 0 1 0 0
+1 0 0 7 6 0 0 5 4
+
+out put format :
+an "answer type" followed by a solution(if unique)
+
+"0" represents no solution
+Ex:
+0
+
+"1" represents the question has unique solution (will print out solution)
+Ex:
+1
+2 4 1 8 5 9 3 7 6
+5 7 6 3 4 1 8 2 9
+3 8 9 6 7 2 5 4 1
+8 5 2 9 3 4 6 1 7
+9 1 7 2 8 6 4 3 5
+4 6 3 5 1 7 2 9 8
+6 3 4 1 9 5 7 8 2
+7 9 5 4 2 8 1 6 3
+1 2 8 7 6 3 9 5 4
+
+"2" represents the question had multiple solution (won't print out all solution)
+Ex:
+2
